@@ -7,6 +7,7 @@ import {Button} from "./Button/Button";
 import {Filter} from "./Filter/Filter";
 import {UseState} from "./UseState/UseState";
 import {Input} from "./Input/Input";
+import {TryButtonFunction} from './Button/TryButtonFunction/TryButtonFunction';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
             <Filter/>
             <UseState/>
             <Input />
+            <TryButtonFunction />
         </div>
     );
 }

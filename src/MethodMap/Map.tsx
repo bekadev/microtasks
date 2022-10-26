@@ -13,12 +13,12 @@ type StudentsTypeProps = {
 export const Map = (props: MapTypeProps) => {
     return (
         <ul>
-            {props.students.map((t, index) => {
+            {props.students.map((t,index) => {
                 return (
-                    <li key={t.id}>
-                        <span>{t.name} </span>
-                        <span>{t.age} </span>
-                    </li>
+                    <ul key={t.id}>
+                        <li>{t.age}</li>
+                        <li>{t.name}</li>
+                    </ul>
                 )
             })}
         </ul>
