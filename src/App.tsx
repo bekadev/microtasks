@@ -8,6 +8,7 @@ import {Filter} from "./Filter/Filter";
 import {UseState} from "./UseState/UseState";
 import {Input} from "./Input/Input";
 import {TryButtonFunction} from './Button/TryButtonFunction/TryButtonFunction';
+import {MapComponent} from './MethodMap/MapComponent';
 
 function App() {
 
@@ -25,6 +26,18 @@ function App() {
         {id: 11, name: "Christopher", age: 100},
     ]
 
+    const cars = [
+        {id: 1, name: 'Beka', age: 21, bestcolor: 'black'},
+        {id: 2, name: 'Alua', age: 20, bestcolor: 'white'},
+        {id: 3, name: 'Ayan', age: 20, bestcolor: 'pink'},
+        {id: 4, name: 'Ramazan', age: 28, bestcolor: 'yellow'},
+        {id: 5, name: 'Tolkyn', age: 24, bestcolor: 'black'},
+        {id: 6, name: 'Aman', age: 21, bestcolor: 'blue'},
+        {id: 7, name: 'Ahmet', age: 22, bestcolor: 'grean'},
+        {id: 8, name: 'Kuat', age: 21, bestcolor: 'red'},
+        {id: 9, name: 'Rahat', age: 21, bestcolor: 'purple'},
+    ]
+
     return (
         <div className="App">
             <Header name={'beka'}/>
@@ -34,6 +47,7 @@ function App() {
             <UseState/>
             <Input />
             <TryButtonFunction />
+            <MapComponent cars={cars}/>
         </div>
     );
 }

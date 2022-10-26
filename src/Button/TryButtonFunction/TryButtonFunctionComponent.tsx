@@ -6,6 +6,5 @@ export type TryButtonFunctionComponentType  = {
 }
 
 export const TryButtonFunctionComponent = (props: TryButtonFunctionComponentType) => {
-
     return (<button onClick={props.func}>{props.name}</button>);
 };
