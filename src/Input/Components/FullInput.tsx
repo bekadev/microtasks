@@ -16,6 +16,8 @@ export const FullInput = (props: FullInputType) => {
         setTitle('')
     }
 
+    // test
+
     return (
         <div>
             <input value={title} onChange={onChangeInputHandler}/>
