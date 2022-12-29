@@ -9,6 +9,7 @@ import {UseState} from "./UseState/UseState";
 import {Input} from "./Input/Input";
 import {TryButtonFunction} from './Button/TryButtonFunction/TryButtonFunction';
 import {MapComponent} from './MethodMap/MapComponent';
+import {Project} from './Project/Project';
 
 function App() {
 
@@ -40,14 +41,15 @@ function App() {
 
     return (
         <div className="App">
-            <Header name={'beka'}/>
-            <Map students={students}/>
-            <Button/>
-            <Filter/>
-            <UseState/>
-            <Input />
-            <TryButtonFunction />
-            <MapComponent cars={cars}/>
+            <Project />
+            {/*<Header name={'beka'}/>*/}
+            {/*<Map students={students}/>*/}
+            {/*<Button/>*/}
+            {/*<Filter/>*/}
+            {/*<UseState/>*/}
+            {/*<Input />*/}
+            {/*<TryButtonFunction />*/}
+            {/*<MapComponent cars={cars}/>*/}
         </div>
     );
 }
