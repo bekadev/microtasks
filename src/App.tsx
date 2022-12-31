@@ -10,6 +10,7 @@ import {Input} from "./Input/Input";
 import {TryButtonFunction} from './Button/TryButtonFunction/TryButtonFunction';
 import {MapComponent} from './MethodMap/MapComponent';
 import {Project} from './Project/Project';
+import {Post} from './Post/Post';
 
 function App() {
 
@@ -41,15 +42,16 @@ function App() {
 
     return (
         <div className="App">
-            <Project />
-            <Header name={'beka'}/>
-            <Map students={students}/>
-            <Button/>
-            <Filter/>
-            <UseState/>
-            <Input />
-            <TryButtonFunction />
-            <MapComponent cars={cars}/>
+            <Post />
+            {/*<Project />*/}
+            {/*<Header name={'beka'}/>*/}
+            {/*<Map students={students}/>*/}
+            {/*<Button/>*/}
+            {/*<Filter/>*/}
+            {/*<UseState/>*/}
+            {/*<Input />*/}
+            {/*<TryButtonFunction />*/}
+            {/*<MapComponent cars={cars}/>*/}
         </div>
     );
 }

@@ -1,0 +1,18 @@
+.main {
+  background-color: #0d1117;
+  height: 100vh;
+  padding-top: 60px;
+  &_wrapper{
+    max-width: 700px;
+    height: 500px;
+    border: 1px solid #30363d;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &_photo {
+    width: 450px;
+    height: 300px;
+  }
+}
