@@ -1,0 +1,39 @@
+.header {
+  background-color: #fff;
+  width: 100%;
+  font-size: 17px;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 8%);
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  &_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 75px;
+    max-width: 1200px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  &_logo{
+    display: flex;
+    align-items: center;
+  }
+  &_nav{
+    display: flex;
+    align-items: center;
+    padding: 7px 0;
+    margin-left: -75px;
+    &_link{
+      list-style-type: none;
+      margin-right: 64px;
+      color: rgba(0,0,0,.4);
+      cursor: pointer;
+      :hover{
+
+      }
+    }
+  }
+}

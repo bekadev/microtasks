@@ -42,14 +42,14 @@ function App() {
     return (
         <div className="App">
             <Project />
-            {/*<Header name={'beka'}/>*/}
-            {/*<Map students={students}/>*/}
-            {/*<Button/>*/}
-            {/*<Filter/>*/}
-            {/*<UseState/>*/}
-            {/*<Input />*/}
-            {/*<TryButtonFunction />*/}
-            {/*<MapComponent cars={cars}/>*/}
+            <Header name={'beka'}/>
+            <Map students={students}/>
+            <Button/>
+            <Filter/>
+            <UseState/>
+            <Input />
+            <TryButtonFunction />
+            <MapComponent cars={cars}/>
         </div>
     );
 }
