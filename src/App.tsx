@@ -42,7 +42,7 @@ function App() {
 
     return (
         <div className="App">
-            <Post />
+            {/*<Post />*/}
             {/*<Project />*/}
             {/*<Header name={'beka'}/>*/}
             {/*<Map students={students}/>*/}
