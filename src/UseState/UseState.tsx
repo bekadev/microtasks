@@ -12,7 +12,7 @@ export const UseState = () => {
     }
 
     return (
-
+        // text
         <div>
             <h1>{a}</h1>
             <button onClick={onClickStateUpHandler}>up</button>
