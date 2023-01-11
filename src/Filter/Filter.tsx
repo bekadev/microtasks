@@ -3,7 +3,6 @@ import React, {useState} from "react";
 
 type FilterType = 'all' | 'ruble' | 'dollar'
 
-
 export const Filter = () => {
     const [money, setMoney] = useState([
         {banknote: 'dollar', nominal: 100, number: ' a1234567890'},
@@ -51,6 +50,7 @@ export const Filter = () => {
                         )
                     })}
                 </ul>
+                {/*test*/}
                 <button onClick={() => onClickFilterHandler('all')}>all</button>
                 <button onClick={() => onClickFilterHandler('ruble')}>ruble</button>
                 <button onClick={() => onClickFilterHandler('dollar')}>dollar</button>
