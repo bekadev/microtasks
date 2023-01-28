@@ -3,6 +3,8 @@ import React, {useState} from "react";
 
 type FilterType = 'all' | 'ruble' | 'dollar'
 
+
+//filter
 export const Filter = () => {
     const [money, setMoney] = useState([
         {banknote: 'dollar', nominal: 100, number: ' a1234567890'},
