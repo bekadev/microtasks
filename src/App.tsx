@@ -27,7 +27,7 @@ function App() {
         {id: 10, name: "Charles", age: 98},
         {id: 11, name: "Christopher", age: 100},
     ]
-
+    //cars
     const cars = [
         {id: 1, name: 'Beka', age: 21, bestcolor: 'black'},
         {id: 2, name: 'Alua', age: 20, bestcolor: 'white'},
@@ -42,6 +42,7 @@ function App() {
 
     return (
         <div className="App">
+
             <Post />
             <Project />
             <Header name={'beka'}/>
